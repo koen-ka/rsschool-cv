@@ -29,3 +29,48 @@ Since I started my working career I’ve been dreaming of profession which will 
 - Figma
 
 ---
+
+### Cod exemples
+```
+    const header = document.querySelector('.header');
+        header.style.cssText = `
+            display: flex;
+            position: fixed;
+            inset: 0;
+        `
+        const div = document.querySelector('.js-btn-group');
+        div.style.cssText = `
+            position: relative;
+            margin: auto;
+        `
+        const openButton = document.querySelector('.js-open-btn');
+        const drop = document.querySelector(openButton.dataset.target);
+                
+        openButton.addEventListener('click', () => {
+            drop.style.display = 'block';
+        })
+
+        header.addEventListener('click', event => {
+            const target = event.target;
+            if (target === header) {
+                drop.style.display = 'none';
+            }
+        });
+ ```
+
+---
+
+### Education
+
+- Rolling Scopes School [Preparatory course *«JavaScript/Front-end. Stage 0»*](https://rs.school/courses/javascript-preschool-ru)
+- SkillBox: HTML, CSS, JS
+- Study English with a tutor
+- Educational institution «Vitebsk State Technological University» (2011-2016)
+  - Specialization "Interior Designer"
+
+---
+
+### Languages
+
+- **English** - A2 
+- **Russian** - native
