@@ -17,3 +17,23 @@ a {
 img {
     max-width: 100%;
 }
+
+.container {
+    width: 1200px;
+    height: 1696px;
+    margin: 35px auto;
+}
+
+.shadow {
+    box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.25);
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.main,
+.footer {
+    flex-direction: row;
+}
