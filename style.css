@@ -180,6 +180,56 @@ p {
     font-style: normal;
 }
 
+.section_left {
+    width: 310px;
+}
+
+.skills_item {
+    font-weight: 400;
+    color: #515151;
+}
+
+.item_js {
+    background-image: url(/assets/img/icon_skills/icon_js.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 31px 27px;
+}
+.item_html {
+    background-image: url(assets/img/icon_skills/icon_html5.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 31px 27px;
+}
+
+.item_css {
+    background-image: url(assets/img/icon_skills/icon_css.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 31px 27px;
+}
+
+.item_figma {
+    background-image: url(assets/img/icon_skills/icon_figma.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 31px 27px;
+}
+
+.item_git {
+    background-image: url(assets/img/icon_skills/icon_github.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 31px 27px;
+}
+
+.item_vscode {
+    background-image: url(assets/img/icon_skills/icon_vscode.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 31px 27px;
+}
+
 
 /* *    right    ---------------------------------------------------------------------------- */
 .column_right {
@@ -188,4 +238,64 @@ p {
     height: 1567px;
     justify-content: space-between;
     background-color: #fff;
+}
+
+.item-info {
+    font-size: 22px;
+}
+
+.section_title-right {
+    width: 524px;
+}
+
+.about_myself {
+    color: #777778;
+    text-align: justify;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.about_myself:not(:last-child) {
+    padding-bottom: 20px;
+}
+
+.title_right {
+    width: 524px;
+}
+
+.section-right {
+    width: 433px;
+
+}
+
+.info:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.title_info {
+    margin-bottom: 6px;
+    color: #303030;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.descr_info {
+    color: #777778;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.descr_info:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.list_descr {
+    margin-top: 12px;
+}
+
+.descr-info {
+    color: #777778;
+    font-size: 18px;
+    font-weight: 300;
 }
