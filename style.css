@@ -299,3 +299,57 @@ p {
     font-size: 18px;
     font-weight: 300;
 }
+
+/* *    footer   ---------------------------------------------------------------------------- */
+.footer_container {
+    width: 499px;
+    height: 129px;
+    padding: 36px 76px;
+    justify-content: space-between;
+    background-color: #F0F0F0;
+}
+
+.footer_flex {
+    flex-direction: row;
+}
+
+.footer_list {
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.footer_link-rss {
+    display: block;
+    width: 150px;
+    height: 54px;
+    background-image: url(/assets/img/icon_footer/rs_school_js.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer_link-github {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url(/assets/img/icon_footer/github.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer_link-cv {
+    display: block;
+    width: 85px;
+    height: 39px;
+    background-image: url(/assets/img/icon_footer/2024.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.empty {
+    width: 700px;
+    height: 129px;
+    background-color: #fff;
+}
