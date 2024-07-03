@@ -12,8 +12,8 @@ html {
 @font-face {
     font-family: 'InterTight';
     src: local('InterTightLight'),
-        url('/assets/fonts/InterTightLight.woff2') format('woff2'),
-        url('/assets/fonts/InterTightLight.woff') format('woff');
+        url('assets/fonts/InterTightLight.woff2') format('woff2'),
+        url('assets/fonts/InterTightLight.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
@@ -21,8 +21,8 @@ html {
 @font-face {
     font-family: 'InterTight';
     src: local('InterTightRegular'),
-        url('/assets/fonts/InterTightRegular.woff2') format('woff2'),
-        url('/assets/fonts/InterTightRegular.woff') format('woff');
+        url('assets/fonts/InterTightRegular.woff2') format('woff2'),
+        url('assets/fonts/InterTightRegular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 }
@@ -145,28 +145,28 @@ p {
 }
 
 .item_telegram {
-    background-image: url(/assets/img/icon_contacts/icon_telegram.svg);
+    background-image: url(assets/img/icon_contacts/icon_telegram.svg);
     background-position: center left;
     background-repeat: no-repeat;
     background-size: 32px 27px;
 }
 
 .item_email {
-    background-image: url(/assets/img/icon_contacts/icon_mail.svg);
+    background-image: url(assets/img/icon_contacts/icon_mail.svg);
     background-position: center left;
     background-repeat: no-repeat;
     background-size: 30px 23px;
 }
 
 .item_linkedin {
-    background-image: url(/assets/img/icon_contacts/icon_linkedin.svg);
+    background-image: url(assets/img/icon_contacts/icon_linkedin.svg);
     background-position: center left;
     background-repeat: no-repeat;
     background-size: 32px 27px;
 }
 
 .item_github {
-    background-image: url(/assets/img/icon_contacts/icon_github.svg);
+    background-image: url(assets/img/icon_contacts/icon_github.svg);
     background-position: center left;
     background-repeat: no-repeat;
     background-size: 31px 27px;
@@ -190,7 +190,7 @@ p {
 }
 
 .item_js {
-    background-image: url(/assets/img/icon_skills/icon_js.svg);
+    background-image: url(assets/img/icon_skills/icon_js.svg);
     background-position: center left;
     background-repeat: no-repeat;
     background-size: 31px 27px;
@@ -322,7 +322,7 @@ p {
     display: block;
     width: 150px;
     height: 54px;
-    background-image: url(/assets/img/icon_footer/rs_school_js.svg);
+    background-image: url(assets/img/icon_footer/rs_school_js.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -332,7 +332,7 @@ p {
     display: block;
     width: 40px;
     height: 40px;
-    background-image: url(/assets/img/icon_footer/github.svg);
+    background-image: url(assets/img/icon_footer/github.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -342,7 +342,7 @@ p {
     display: block;
     width: 85px;
     height: 39px;
-    background-image: url(/assets/img/icon_footer/2024.svg);
+    background-image: url(assets/img/icon_footer/2024.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
