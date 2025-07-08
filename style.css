@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.name_surname {
+    margin: 0;
+    margin-bottom: 20px;
+    color: #777778;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.profession {
+    margin: 0;
+    color: #C2A778;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+}
