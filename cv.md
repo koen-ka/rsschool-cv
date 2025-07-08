@@ -29,3 +29,34 @@ Since I started my working career I’ve been dreaming of profession which will 
 - Figma
 
 ---
+
+### Cod exemples
+```
+function myArray(arr) {
+    if (arr.length === 0) {
+        return 0;
+    } else {
+        return arr[0] + myArray(arr.slice(1));
+    }
+}
+
+let newArr = [20, 30, 40, 50];
+console.log(myArray(newArr));
+ ```
+
+---
+
+### Education
+
+- Rolling Scopes School [Preparatory course *«JavaScript/Front-end. Stage 0»*](https://rs.school/courses/javascript-preschool-ru);
+- SkillBox: JavaScript, React, HTML, CSS;
+- Educational institution «Vitebsk State Technological University» (2011-2016)
+  - Specialization "Designer"
+
+---
+
+### Languages
+
+- **English** - A2 
+- **Polish** - A2 
+- **Russian** - native
