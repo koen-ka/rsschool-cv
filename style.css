@@ -9,6 +9,40 @@ html {
     box-sizing: inherit;
 }
 
+@font-face {
+    font-family: 'InterTight';
+    src: local('InterTightLight'),
+        url('assets/fonts/InterTightLight.woff2') format('woff2'),
+        url('assets/fonts/InterTightLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'InterTight';
+    src: local('InterTightRegular'),
+        url('assets/fonts/InterTightRegular.woff2') format('woff2'),
+        url('assets/fonts/InterTightRegular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'InterTight', sans-serif;
+    font-weight: 400;
+}
+
+h3 {
+    margin: 0;
+    margin-bottom: 35px;
+    padding-right: 41px;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: right;
+    color: #C2A778;
+    text-transform: uppercase;
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -16,6 +50,10 @@ a {
 
 img {
     max-width: 100%;
+}
+
+p {
+    margin: 0;
 }
 
 .name_surname {
@@ -33,4 +71,63 @@ img {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: normal;
+}
+
+/* *    global   ---------------------------------------------------------------------------- */
+
+.container {
+    width: 1200px;
+    height: 1696px;
+    margin: 35px auto;
+}
+
+.shadow {
+    box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.25);
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.main,
+.footer {
+    flex-direction: row;
+}
+
+.section {
+    align-items: center;
+}
+
+.section_title {
+    margin-bottom: 40px;
+    display: block;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #777778;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.item_li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+/* *    left   ---------------------------------------------------------------------------- */
+.column_left {
+    width: 499px;
+    height: 1567px;
+    padding: 0 65px;
+    padding-top: 100px;
+    padding-bottom: 285px;
+    justify-content: space-between;
+    background-color: #F0F0F0;
+}
+
+.photo_img {
+    border: 0 solid;
+    border-radius: 100%;
 }
