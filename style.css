@@ -229,3 +229,72 @@ p {
     background-repeat: no-repeat;
     background-size: 31px 27px;
 }
+
+/* *    right    ---------------------------------------------------------------------------- */
+.column_right {
+    padding: 0 88px;
+    padding-top: 100px;
+    height: 1567px;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.item-info {
+    font-size: 22px;
+}
+
+.section_title-right {
+    width: 524px;
+}
+
+.about_myself {
+    color: #777778;
+    text-align: justify;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.about_myself:not(:last-child) {
+    padding-bottom: 20px;
+}
+
+.title_right {
+    width: 524px;
+}
+
+.section-right {
+    width: 500px;
+
+}
+
+.info:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.title_info {
+    margin-bottom: 6px;
+    color: #303030;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.descr_info {
+    color: #777778;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.descr_info:not(:last-child) {
+    margin-bottom: 4px;
+}
+
+.list_descr {
+    margin-top: 12px;
+}
+
+.descr-info {
+    color: #777778;
+    font-size: 18px;
+    font-weight: 300;
+}
