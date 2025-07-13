@@ -131,3 +131,101 @@ p {
     border: 0 solid;
     border-radius: 100%;
 }
+
+.section_title-left{
+    width: 370px;
+}
+
+.item {
+    font-size: 22px;
+    padding-left: 55px;
+    line-height: 32px;
+    color: #777778;
+    font-weight: 300;
+}
+
+.item_telegram {
+    background-image: url(assets/img/icon_contacts/icon_telegram.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 32px 27px;
+}
+
+.item_email {
+    background-image: url(assets/img/icon_contacts/icon_mail.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 30px 23px;
+}
+
+.item_linkedin {
+    background-image: url(assets/img/icon_contacts/icon_linkedin.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 32px 27px;
+}
+
+.item_github {
+    background-image: url(assets/img/icon_contacts/icon_github.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 31px 27px;
+}
+
+.hover:hover {
+    color: #C2A778;
+}
+
+.address {
+    font-style: normal;
+}
+
+.section_left {
+    width: 310px;
+}
+
+.skills_item {
+    font-weight: 400;
+    color: #515151;
+}
+
+.item_js {
+    background-image: url(assets/img/icon_skills/icon_js.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 31px 27px;
+}
+.item_html {
+    background-image: url(assets/img/icon_skills/icon_html5.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 31px 27px;
+}
+
+.item_css {
+    background-image: url(assets/img/icon_skills/icon_css.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 31px 27px;
+}
+
+.item_react {
+    background-image: url(assets/img/icon_skills/icon_react.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 31px 27px;
+}
+
+.item_git {
+    background-image: url(assets/img/icon_skills/icon_github.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 31px 27px;
+}
+
+.item_vscode {
+    background-image: url(assets/img/icon_skills/icon_vscode.svg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 31px 27px;
+}
